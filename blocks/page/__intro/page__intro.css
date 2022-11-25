@@ -1,0 +1,26 @@
+.page__intro {
+  margin: 0 148px;
+  padding: 114px 0 0 0;
+  color: #fff;
+}
+
+@media (max-width:1024px) {
+  .page__intro {
+    margin: 0 48px;
+    padding: 92px 0 0 0;
+  }
+}
+
+@media (max-width:768px) {
+  .page__intro {
+    margin: 0 24px;
+    padding: 88px 0 0 0;
+  }
+}
+
+@media (max-width:425px) {
+  .page__intro {
+    margin: 0 16px;
+    padding: 64px 0 0 0;
+  }
+}

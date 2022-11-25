@@ -1,0 +1,17 @@
+.footer{
+max-width:calc(100% - 48px*2);
+max-height: 18px;
+
+display: flex;
+justify-content: space-between;
+
+}
+
+@media (max-width: 600px) {
+    .footer {
+      flex-direction: column;
+      gap: 48px;
+      max-height: 310px;
+  }
+    }
+  

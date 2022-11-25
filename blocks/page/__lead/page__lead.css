@@ -1,0 +1,18 @@
+.page__lead {
+  margin: 0 148px;
+  padding: 56px 0 0 0;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .page__lead {
+    margin: 0 48px;
+    padding: 48px 0 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .page__lead {
+    margin: 0px;
+  }
+}

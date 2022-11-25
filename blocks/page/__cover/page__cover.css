@@ -1,0 +1,24 @@
+.page__cover {
+  margin: 92px 48px;
+  padding: 0;
+
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .page__cover {
+    margin: 92px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page__cover {
+    margin: 90px 0px 88px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .page__cover {
+    margin: 66px 0px 64px 0;
+  }
+}
