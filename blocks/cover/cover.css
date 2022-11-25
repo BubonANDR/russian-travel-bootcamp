@@ -1,7 +1,7 @@
 .cover {
   max-width: calc(100% - 48px * 2);
   height: calc(100vw * (740/1184));
-  background-image: url(../../images/cover-background.svg);
+  background-image: url(../../images/cover-background.jpg);
   background-position: center;
   background-repeat: no-repeat;
    display: flex;
