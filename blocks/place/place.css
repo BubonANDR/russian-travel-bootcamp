@@ -1,32 +1,38 @@
 .place {
   display: grid;
-  grid-template: minmax(min-content, max-content) minmax(min-content, max-content) / 460px minmax(min-content,max-content);
+  grid-template: minmax(min-content, max-content) minmax(
+      min-content,
+      max-content
+    ) / 460px minmax(min-content, max-content);
   gap: 48px 40px;
 }
 
-
 @media (max-width: 1024px) {
   .place {
-    grid-template: minmax(min-content, max-content) minmax(min-content, max-content) / 440px minmax(min-content,456px);
+    grid-template: minmax(min-content, max-content) minmax(
+        min-content,
+        max-content
+      ) / 440px minmax(min-content, 456px);
     gap: 48px 32px;
-}
   }
-
+}
 
 @media (max-width: 768px) {
   .place {
-    grid-template: minmax(min-content, max-content) minmax(min-content, max-content) / 340px minmax(min-content, 452px);
+    grid-template: minmax(min-content, max-content) minmax(
+        min-content,
+        max-content
+      ) / 340px minmax(min-content, 452px);
     gap: 48px 28px;
-}
   }
-
+}
 
 @media (max-width: 600px) {
   .place {
-    grid-template: repeat(4, minmax(min-content, max-content)) / minmax(320px,1fr);  
+    grid-template: repeat(4, minmax(min-content, max-content)) / minmax(
+        320px,
+        1fr
+      );
     gap: 32px;
-}
   }
-
-
-
+}

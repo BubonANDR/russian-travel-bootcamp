@@ -1,18 +1,17 @@
 .cover_overlay:before {
-    content:'';
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: #2A2C2F;
-    opacity: 0.3;
-    position: absolute;
-    z-index: -1;
-    transition: 0.4s;
-   
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  z-index: -1;
+  transition: 0.4s;
 }
 
-.cover_overlay:hover:before{
-    opacity: 0.8; 
-    z-index: -1;
+.cover_overlay:hover:before {
+  opacity: 0.8;
+  z-index: -1;
 }
