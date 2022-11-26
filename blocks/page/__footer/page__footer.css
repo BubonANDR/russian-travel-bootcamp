@@ -10,6 +10,11 @@
     }
   }
 
+  @media (max-width: 600px) {
+    .page__footer {
+      padding-top: 16px;
+    }
+  }
   @media (max-width: 425px) {
     .page__footer {
       margin: 0 118px 24px 16px;

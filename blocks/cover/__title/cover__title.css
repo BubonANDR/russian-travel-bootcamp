@@ -7,17 +7,22 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 106%;
   /* or 106% */
   text-align: center;
   z-index: 2;
 }
 
-
+@media (max-width: 620px) {
+  .cover__title {
+    font-size: 50px;
+    margin: 0 0 16px 0;
+  }
+}
 
 @media (max-width: 425px) {
   .cover__title {
-font-size: 32px;
-line-height: 35px;
+    font-size: 32px;
+    margin: 0 0 16px 0;
   }
 }

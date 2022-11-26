@@ -18,7 +18,7 @@
 }
 @media (max-width:425px) {
   .page__places {
-    margin: 0;
+    margin: 0 16px;
     padding: 64px 0 0 0;
   }
 }

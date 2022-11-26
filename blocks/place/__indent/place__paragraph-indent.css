@@ -1,0 +1,9 @@
+.place__paragraph-indent {
+  padding-top: 26px;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph-indent {
+    padding-top: 25px;
+  }
+}
