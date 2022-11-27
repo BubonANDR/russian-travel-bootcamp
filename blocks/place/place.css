@@ -1,6 +1,4 @@
 .place {
-  margin: 0;
-  padding: 0;
   display: grid;
 
   grid-template:
@@ -33,7 +31,6 @@
       minmax(min-content, max-content) minmax(min-content, max-content)
       / 300px minmax(min-content, 440px);
     gap: 48px 28px;
-    margin-bottom: 80px;
   }
 }
 
@@ -50,6 +47,5 @@
         max-content
       );
     gap: 32px;
-    margin-bottom: 50px;
   }
 }

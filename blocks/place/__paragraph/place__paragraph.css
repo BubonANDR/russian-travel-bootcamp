@@ -8,7 +8,9 @@
   line-height: 163%;
   height: auto;
   max-width: 100%;
-}
+  word-break:break-all;
+  
+  }
 
 
 @media (max-width: 768px) {
@@ -16,3 +18,4 @@
     font-size: 16px;
   }
 }
+
