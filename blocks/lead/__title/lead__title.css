@@ -11,27 +11,23 @@
   text-align: center;
 }
 @media (max-width: 740px) {
-  .lead__title{
-    font-size: 86px; 
+  .lead__title {
+    font-size: 86px;
   }
 }
 
 @media (max-width: 670px) {
-  .lead__title{
-    font-size: 76px; 
+  .lead__title {
+    font-size: 76px;
   }
 }
-
-
 
 @media (max-width: 600px) {
   .lead__title {
     max-width: 288px;
     min-height: 88px;
     margin: 0 0 16px 0;
-    font-weight: 900;
     font-size: 40px;
-    
   }
 }
 

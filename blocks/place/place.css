@@ -1,6 +1,5 @@
 .place {
   display: grid;
-
   grid-template:
     minmax(min-content, max-content) minmax(min-content, max-content)
     / 460px minmax(min-content, max-content);

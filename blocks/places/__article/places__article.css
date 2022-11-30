@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.places__article:last-of-type{
+.places__article:last-child{
     margin: 0;
 }
 

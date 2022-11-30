@@ -1,8 +1,8 @@
 .cover {
   max-width: calc(100% - 48px * 2);
-  min-height: calc(100vw * (740 / 1184));
+  min-height: 740px;
   background-image: url(../../images/cover-background.jpg);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -17,5 +17,24 @@
 @media (max-width: 1024px) {
   .cover {
     max-width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cover {
+    min-height: calc(100vw * (200 / 320));
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    min-height:200px;
   }
 }

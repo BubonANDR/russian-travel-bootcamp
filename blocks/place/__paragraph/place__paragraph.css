@@ -8,10 +8,7 @@
   line-height: 163%;
   height: auto;
   max-width: 100%;
-  word-break:break-all;
-  
-  }
-
+}
 
 @media (max-width: 768px) {
   .place__paragraph {
@@ -19,3 +16,6 @@
   }
 }
 
+.place__paragraph:nth-child(2) {
+  padding-top: 26px;
+}

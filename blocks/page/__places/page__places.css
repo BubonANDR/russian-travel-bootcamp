@@ -12,11 +12,11 @@
 
 @media (max-width: 768px) {
   .page__places {
-    margin: 88px 24px;
+    margin: 88px 24px 90px 24px;
   }
 }
 @media (max-width: 425px) {
   .page__places {
-    margin: 64px 0;
+    margin: 64px 0 66px 0;
   }
 }
